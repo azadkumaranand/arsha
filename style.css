@@ -1,0 +1,29 @@
+
+    .main_container{
+        background-color: rgb(55,81,126);
+        height: 80vh;
+    }
+    .heading{
+        font-size: 48px; 
+        font-weight: 700; 
+        line-height: 56px;
+    }
+    .clieng-section{
+        width: 80%;
+    }
+    @media(max-width: 992px){
+        .main_container{
+            height: 142vh;
+        }
+    }
+    @media(max-width: 768px){
+        .main_container{
+            height: 140vh;
+        }
+        .heading{
+            font-size: 35px; 
+            font-weight: 700; 
+            line-height: 56px;
+        }
+
+    }
